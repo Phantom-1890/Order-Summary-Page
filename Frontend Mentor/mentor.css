@@ -1,0 +1,90 @@
+.attribution { 
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+ }
+.attribution a { color: hsl(228, 45%, 44%); }
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    margin: 0; 
+    background-image: url('https://cdn.pixabay.com/photo/2023/09/16/18/18/wallpaper-8257343_1280.png');
+    background-size: cover;
+  /*background-position: center;*/
+  background-repeat: no-repeat;
+  overflow: hidden;
+  }
+.OS{
+  background-image: url('illustration-hero.svg');
+  background-size: 370px 110px;
+  background-repeat: no-repeat;
+    width: 320px;
+    min-height: 400px;
+   /* border: solid 1px;*/
+   border-radius: 20px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+#indiv{
+    background-color: #F3EEEA;
+    width: 280px;
+    height: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+.text-container{
+  margin-top: 70px;
+  text-align: center;
+}
+#flink{
+  color: purple;
+  font-weight: bold;
+  position: absolute;
+  right: 500px;
+  top: 327px;
+}
+#slink{
+  text-decoration: none;
+  color: #45474B;
+  font-weight: bold;
+}
+#slink:hover{
+  color: #B3A492;
+}
+#button{
+  border: none;
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: #7071E8;
+  color: white;
+  font-weight: bold;
+}
+#price{
+  color: #B3A492;
+  margin: 0;
+ /* position: absolute;
+  left: 550px;*/
+}
+#icon-music{
+  position: absolute;
+  left: 490px;
+  top: 310px;
+}
+.aptext{
+font-size: 17px;
+margin: 0;
+}
+#plan-details{
+  position: relative;
+  right: 40px;
+}
